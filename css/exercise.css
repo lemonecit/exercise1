@@ -25,7 +25,9 @@ margin:0 auto;
 
 h1.content_h1 {
 
-text-align: center;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
 
 
 }
