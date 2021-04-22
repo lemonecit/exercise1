@@ -40,6 +40,12 @@ h1, h2, h3, h4, h5, h6 {
 .main-left {
 
 float:left;
-width:30%;
+width:50%;
+
+}
+
+.profile_img {
+
+width:550px;
 
 }
