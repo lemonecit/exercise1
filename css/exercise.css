@@ -4,7 +4,7 @@ background-color:black;
 color:white;
 margin:0px;
 padding:0px;
-
+font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -40,8 +40,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-.main-left {
 
+.main {
+
+grid-template-columns: 40% 60%;
+grid-template-rows: 100%;
+grid-template-areas:
+"profile main_right";
+}
+
+.main-right {
+
+grid-area:main_right;
+
+}
+
+
+.main-left {
+grid-area:profile;
 float:left;
 width:50%;
 
@@ -99,12 +115,21 @@ grid-area:topRubrik;
 .toptext {
 
 float:right;
+margin-right:40px;
 
 }
 
 .toptext h3  {
 
 display: inline-block;
+text-transform: uppercase;
+
+}
+
+.h3_black {
+
+  font-size:40px;
+  color:black;
 
 }
 
