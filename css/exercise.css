@@ -96,6 +96,12 @@ grid-area:topRubrik;
 
 }
 
+.toptext {
+
+float:right;
+
+}
+
 .toptext h3  {
 
 display: inline-block;
@@ -117,6 +123,14 @@ grid-area:topContact;
 font-size:40px;
 text-transform: uppercase;
 color:#379e7c;
+}
+
+.greensplah {
+
+font-size:40px;
+color:#379e7c;
+padding:10px;
+
 }
 
 .main-right {
