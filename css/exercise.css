@@ -58,8 +58,7 @@ grid-area:main_right;
 
 .main-left {
 grid-area:profile;
-float:left;
-width:50%;
+
 
 }
 
