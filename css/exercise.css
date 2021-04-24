@@ -73,7 +73,7 @@ grid-area:main_1stRow;
 }
 
 .main-right-2ndRow {
-
+width: 360px;
 grid-area:main_2stRow;
 
 }
@@ -356,5 +356,31 @@ font-size:14px;
   padding:5px;
 text-align: center;
 display: block;
+
+}
+
+.born_font {
+font-size:32px;
+font-family: 'Mr Dafoe', cursive;
+}
+
+.character_font {
+  font-family: 'Caveat', cursive;
+  padding:0px;
+  margin:0px;
+color:black;
+text-transform: uppercase;
+
+
+}
+
+.understruken {
+  color:white;
+  font-family: 'Caveat', cursive;
+padding:5px;
+line-height: 40px;
+  text-transform: uppercase;
+background-color:#379e7c;
+/* display: block; */
 
 }
