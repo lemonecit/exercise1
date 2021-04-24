@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
 display: grid;
-grid-template-columns: 30% 80%;
+grid-template-columns: 28% 78%;
 grid-template-rows: 100%;
 grid-template-areas:
 "profile main_right";
@@ -202,7 +202,7 @@ background-color:white;
 }
 
 .main-right-4thRow {
-  grid-gap:2%;
+  grid-gap:1%;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-template-rows: 100%;
@@ -228,32 +228,39 @@ grid-template-areas:
 }
 
 .main-right-4thRow_1_3 h3 {
-    font-weight: bold;
-  margin:0;
-  padding:0;
-color:#379e7c;
-font-size:20px;
-text-transform: uppercase;
+  background-color: #afc8c3;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 5px;
 
 
 }
 
 .main-right-4thRow_2_3 h3 {
+  background-color:#bcc89d;
     font-weight: bold;
   margin:0;
   padding:0;
-color:#379e7c;
+color:white;
 font-size:20px;
 text-transform: uppercase;
+padding: 5px;
 
 
 }
 
 .main-right-4thRow_3_3 h3 {
+
+  background-color:#f55d24;
+
   font-weight: bold;
   margin:0;
-  padding:0;
-color:#379e7c;
+  padding:5px;
+color:white;
 font-size:20px;
 text-transform: uppercase;
 
@@ -263,9 +270,12 @@ text-transform: uppercase;
 
 .language_column {
   padding:5px;
-width:79%;
-height:75%;
-border:1px solid black;
+position:relative;
+top:10px;
+width:95%;
+height:80%;
+border:2px solid black;
+
 
 }
 
@@ -382,5 +392,35 @@ line-height: 40px;
   text-transform: uppercase;
 background-color:#379e7c;
 /* display: block; */
+
+}
+
+
+.born {
+
+  position: relative;
+  float: left;
+  right: 72px;
+
+
+}
+
+
+
+.home {
+
+  position: relative;
+  float: right;
+  right: 29px;
+
+
+}
+
+
+
+
+.home i {
+
+margin-right:5px;
 
 }
