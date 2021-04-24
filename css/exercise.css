@@ -16,7 +16,7 @@ height:800px;
 
 .content {
 
-width:800px;
+width:60%;
 margin:0 auto;
 
 
@@ -33,6 +33,7 @@ h1.content_h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color:blue;
   font-size: 100%;
   font-weight: normal;
 }
@@ -47,5 +48,75 @@ width:50%;
 .profile_img {
 
 width:550px;
+
+}
+
+.top {
+  background-color:white;
+display:grid;
+width:100%;
+height:200px;
+grid-template-columns: 20% 80%;
+grid-template-rows:  50% 50%;
+grid-template-areas:
+"resumeLogo topRubrik"
+"resumeLogo topContact";
+
+}
+
+.left {
+  margin:0px;
+  padding:0px;
+  width: 400px;
+  height: auto;
+
+  grid-area: resumeLogo;
+
+}
+
+.left img {
+position:relative;
+top:-155px;
+left:-150px;
+
+width:800px;
+height:500px;
+
+
+}
+
+.topright {
+
+grid-area:topRubrik;
+
+}
+
+.toptext h3  {
+
+display: inline-block;
+
+}
+
+
+.topbottomright {
+    background-color:#e6e3de;
+width:100%;
+border-top:2px double darkgrey;
+
+grid-area:topContact;
+
+}
+
+.green {
+
+font-size:40px;
+text-transform: uppercase;
+color:#379e7c;
+}
+
+.main-right {
+
+background-color:white;
+
 
 }
