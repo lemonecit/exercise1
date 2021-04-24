@@ -100,7 +100,7 @@ background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, 
 
 .profile_img {
 
-width:550px;
+width:100%;
 
 }
 
