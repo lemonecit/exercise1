@@ -1,7 +1,7 @@
 body {
 
 
-color:white;
+color:black;
 margin:0px;
 padding:0px;
 font-family: 'Roboto', sans-serif;
@@ -70,20 +70,20 @@ grid-area:main_1stRow;
 
 }
 
-.main-right-2stRow {
+.main-right-2ndRow {
 
 grid-area:main_2stRow;
 
 }
 
-.main-right-3stRow {
+.main-right-3rdRow {
 
 grid-area:main_3stRow;
 
 }
 
 
-.main-right-4stRow {
+.main-right-4thRow {
 
 grid-area:main_4stRow;
 
